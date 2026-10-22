@@ -1,0 +1,26 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and environment files
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local data and generated files
+prediction_history.csv
+*.log
+
+# Editor and operating system
+.vscode/
+.DS_Store
+Thumbs.db
